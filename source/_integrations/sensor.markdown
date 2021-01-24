@@ -19,13 +19,15 @@ The way these sensors are displayed in the frontend can be modified in the [cust
 
 - **None**: Generic sensor. This is the default and doesn't need to be set.
 - **battery**: Percentage of battery that is left.
+- **force**: Force in N.
 - **humidity**: Percentage of humidity in the air.
 - **illuminance**: The current light level in lx or lm.
+- **mass**: Mass (often incorrectly called weight) in kg or lb.
 - **signal_strength**: Signal strength in dB or dBm.
 - **temperature**: Temperature in °C or °F.
 - **power**: Power in W or kW.
 - **pressure**: Pressure in hPa or mbar.
-- **timestamp**: Datetime object or timestamp string.
+- **timestamp**: Datetime object or timestamp string (ISO 8601).
 - **current**: Current in A.
 - **energy**: Energy in Wh or kWh.
 - **power_factor**: Power Factor in %.
